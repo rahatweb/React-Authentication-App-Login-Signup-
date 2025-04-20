@@ -72,6 +72,7 @@ const SignupPage = ({ onSignup, switchToLogin }) => {
               onChange={(e) => handleChange(e)}
               name="gender"
               value="male"
+              className="cursor-pointer"
             />{" "}
             Male
             <input
@@ -80,6 +81,7 @@ const SignupPage = ({ onSignup, switchToLogin }) => {
               onChange={(e) => handleChange(e)}
               name="gender"
               value="female"
+              className="cursor-pointer"
             />{" "}
             Female
             <input
@@ -88,7 +90,8 @@ const SignupPage = ({ onSignup, switchToLogin }) => {
               onChange={(e) => handleChange(e)}
               name="gender"
               value="others"
-            />{" "}
+              className="cursor-pointer"
+            />
             Others
           </label>
 
