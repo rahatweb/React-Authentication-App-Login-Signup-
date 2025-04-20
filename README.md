@@ -13,7 +13,7 @@ This is a simple React application that provides basic **Login** and **Signup** 
 - Navigation between login/signup using state
 - Welcome page on successful login
 - No external backend — purely frontend logic
-- Tailwind CSS for styling (optional)
+- Tailwind CSS for styling
 
 ---
 
